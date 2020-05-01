@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "/home/ahmed/.local/share/virtualenvs/recipe-app-api-SFNp52Ga/bin/python"
+    "python.pythonPath": "/home/ahmed/.local/share/virtualenvs/recipe-app-api-SFNp52Ga/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }

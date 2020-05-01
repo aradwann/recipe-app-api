@@ -1,6 +1,6 @@
 language: python
-python: 
+python:
   - "3.7"
 
 script:
-  - python manage.py test && flake8
+  - pipenv install && pipenv shell && cd app && python manage.py test && flake8
