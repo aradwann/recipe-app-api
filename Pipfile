@@ -6,11 +6,11 @@ name = "pypi"
 [packages]
 django = "*"
 djangorestframework = "*"
-flake8 = "*"
-coverage = "*"
 
 [dev-packages]
 autopep8 = "*"
+flake8 = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.8"
