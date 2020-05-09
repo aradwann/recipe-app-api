@@ -9,7 +9,7 @@ from core.models import Ingredient
 
 from recipe.serializers import IngredientSerializer
 
-INGREDIENTS_URL = reverse('recipe:Ingredient-list')
+INGREDIENTS_URL = reverse('recipe:ingredient-list')
 
 
 class PublicIngredientsAPITests(TestCase):
