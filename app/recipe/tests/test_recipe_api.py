@@ -231,7 +231,8 @@ class RecipeImageUploadTest(TestCase):
             img = Image.new('RGB', (10, 10))
             img.save(ntf, format='JPEG')
             ntf.seek(0)
-            response = self.client.post(url, {'image': ntf}, format='multipart')
+            response = self.client.post(
+                url, {'image': ntf}, format='multipart')
 
         self.recipe.refresh_from_db()
         self.assertEqual(response.status_code, status.HTTP_200_OK)
